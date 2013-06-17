@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5280ACA173F7D9E00BFF647 /* UIImage+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = F5280AC9173F7D9E00BFF647 /* UIImage+Data.m */; };
+		F5280ACD173F85C000BFF647 /* SvImageDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5280ACC173F85C000BFF647 /* SvImageDataViewController.m */; };
+		F5280ACF173F862700BFF647 /* IMG_1607.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5280ACE173F862700BFF647 /* IMG_1607.JPG */; };
+		F5280AD2173F98CF00BFF647 /* SvImagePathCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5280AD1173F98CF00BFF647 /* SvImagePathCropView.m */; };
+		F52BD1BD174BA40800074BC5 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = F52BD1BC174BA40800074BC5 /* UIImage+Crop.m */; };
+		F546F4561739FE9900118341 /* cropDragCell.png in Resources */ = {isa = PBXBuildFile; fileRef = F546F4541739FE9900118341 /* cropDragCell.png */; };
+		F546F4571739FE9900118341 /* cropDragCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F546F4551739FE9900118341 /* cropDragCell@2x.png */; };
+		F5634CEC1740A15700B64EC9 /* backgroud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5634CE81740A15700B64EC9 /* backgroud.jpg */; };
+		F5634CED1740A15700B64EC9 /* ghost.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5634CE91740A15700B64EC9 /* ghost.JPG */; };
+		F5634CEE1740A15700B64EC9 /* SvBlendSampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5634CEB1740A15700B64EC9 /* SvBlendSampleView.m */; };
+		F5634CF41740A1CC00B64EC9 /* SvBlendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5634CF31740A1CC00B64EC9 /* SvBlendViewController.m */; };
+		F57E6014174D079000AAE306 /* UIImage+Zoom.m in Sources */ = {isa = PBXBuildFile; fileRef = F57E6013174D079000AAE306 /* UIImage+Zoom.m */; };
+		F583818E174E45FA0099CA00 /* SvTransformView.m in Sources */ = {isa = PBXBuildFile; fileRef = F583818D174E45FA0099CA00 /* SvTransformView.m */; };
+		F5D6E51817427897008965E3 /* UIImage+Rotate_Flip.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6E51717427897008965E3 /* UIImage+Rotate_Flip.m */; };
+		F5D9A8ED1738C9E700C56493 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D9A8EC1738C9E700C56493 /* UIKit.framework */; };
+		F5D9A8EF1738C9E700C56493 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D9A8EE1738C9E700C56493 /* Foundation.framework */; };
+		F5D9A8F11738C9E700C56493 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D9A8F01738C9E700C56493 /* CoreGraphics.framework */; };
+		F5D9A8F71738C9E700C56493 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D9A8F51738C9E700C56493 /* InfoPlist.strings */; };
+		F5D9A8F91738C9E700C56493 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9A8F81738C9E700C56493 /* main.m */; };
+		F5D9A8FD1738C9E700C56493 /* SvImageEditAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9A8FC1738C9E700C56493 /* SvImageEditAppDelegate.m */; };
+		F5D9A8FF1738C9E700C56493 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9A8FE1738C9E700C56493 /* Default.png */; };
+		F5D9A9011738C9E700C56493 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9A9001738C9E700C56493 /* Default@2x.png */; };
+		F5D9A9031738C9E700C56493 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5D9A9021738C9E700C56493 /* Default-568h@2x.png */; };
+		F5D9A9061738C9E700C56493 /* SvImageEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9A9051738C9E700C56493 /* SvImageEditViewController.m */; };
+		F5D9A9171739281F00C56493 /* SvImageCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9A9161739281F00C56493 /* SvImageCropView.m */; };
+		F5D9A91A173928D400C56493 /* SvCropCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D9A919173928D400C56493 /* SvCropCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5280AC8173F7D9E00BFF647 /* UIImage+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Data.h"; path = "SvImageEditUtils/UIImage+Data.h"; sourceTree = SOURCE_ROOT; };
+		F5280AC9173F7D9E00BFF647 /* UIImage+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Data.m"; path = "SvImageEditUtils/UIImage+Data.m"; sourceTree = SOURCE_ROOT; };
+		F5280ACB173F85C000BFF647 /* SvImageDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvImageDataViewController.h; sourceTree = "<group>"; };
+		F5280ACC173F85C000BFF647 /* SvImageDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvImageDataViewController.m; sourceTree = "<group>"; };
+		F5280ACE173F862700BFF647 /* IMG_1607.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1607.JPG; sourceTree = "<group>"; };
+		F5280AD0173F98CF00BFF647 /* SvImagePathCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvImagePathCropView.h; path = SvImageCropView/SvImagePathCropView.h; sourceTree = SOURCE_ROOT; };
+		F5280AD1173F98CF00BFF647 /* SvImagePathCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SvImagePathCropView.m; path = SvImageCropView/SvImagePathCropView.m; sourceTree = SOURCE_ROOT; };
+		F52BD1BB174BA40800074BC5 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Crop.h"; path = "SvImageEditUtils/UIImage+Crop.h"; sourceTree = SOURCE_ROOT; };
+		F52BD1BC174BA40800074BC5 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Crop.m"; path = "SvImageEditUtils/UIImage+Crop.m"; sourceTree = SOURCE_ROOT; };
+		F546F4541739FE9900118341 /* cropDragCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cropDragCell.png; sourceTree = "<group>"; };
+		F546F4551739FE9900118341 /* cropDragCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cropDragCell@2x.png"; sourceTree = "<group>"; };
+		F5634CE81740A15700B64EC9 /* backgroud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroud.jpg; sourceTree = "<group>"; };
+		F5634CE91740A15700B64EC9 /* ghost.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ghost.JPG; sourceTree = "<group>"; };
+		F5634CEA1740A15700B64EC9 /* SvBlendSampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvBlendSampleView.h; sourceTree = "<group>"; };
+		F5634CEB1740A15700B64EC9 /* SvBlendSampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvBlendSampleView.m; sourceTree = "<group>"; };
+		F5634CF21740A1CC00B64EC9 /* SvBlendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvBlendViewController.h; path = BlendView/SvBlendViewController.h; sourceTree = "<group>"; };
+		F5634CF31740A1CC00B64EC9 /* SvBlendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SvBlendViewController.m; path = BlendView/SvBlendViewController.m; sourceTree = "<group>"; };
+		F57E6012174D078F00AAE306 /* UIImage+Zoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Zoom.h"; path = "SvImageEditUtils/UIImage+Zoom.h"; sourceTree = SOURCE_ROOT; };
+		F57E6013174D079000AAE306 /* UIImage+Zoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Zoom.m"; path = "SvImageEditUtils/UIImage+Zoom.m"; sourceTree = SOURCE_ROOT; };
+		F57E6015174D080F00AAE306 /* SvImageEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SvImageEdit.h; path = SvImageEditUtils/SvImageEdit.h; sourceTree = SOURCE_ROOT; };
+		F583818C174E45FA0099CA00 /* SvTransformView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvTransformView.h; sourceTree = "<group>"; };
+		F583818D174E45FA0099CA00 /* SvTransformView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvTransformView.m; sourceTree = "<group>"; };
+		F5D6E51617427897008965E3 /* UIImage+Rotate_Flip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Rotate_Flip.h"; path = "SvImageEditUtils/UIImage+Rotate_Flip.h"; sourceTree = SOURCE_ROOT; };
+		F5D6E51717427897008965E3 /* UIImage+Rotate_Flip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Rotate_Flip.m"; path = "SvImageEditUtils/UIImage+Rotate_Flip.m"; sourceTree = SOURCE_ROOT; };
+		F5D9A8E91738C9E700C56493 /* SvImageEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SvImageEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D9A8EC1738C9E700C56493 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5D9A8EE1738C9E700C56493 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5D9A8F01738C9E700C56493 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5D9A8F41738C9E700C56493 /* SvImageEdit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SvImageEdit-Info.plist"; sourceTree = "<group>"; };
+		F5D9A8F61738C9E700C56493 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5D9A8F81738C9E700C56493 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5D9A8FA1738C9E700C56493 /* SvImageEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SvImageEdit-Prefix.pch"; sourceTree = "<group>"; };
+		F5D9A8FB1738C9E700C56493 /* SvImageEditAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvImageEditAppDelegate.h; sourceTree = "<group>"; };
+		F5D9A8FC1738C9E700C56493 /* SvImageEditAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvImageEditAppDelegate.m; sourceTree = "<group>"; };
+		F5D9A8FE1738C9E700C56493 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5D9A9001738C9E700C56493 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5D9A9021738C9E700C56493 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5D9A9041738C9E700C56493 /* SvImageEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SvImageEditViewController.h; sourceTree = "<group>"; };
+		F5D9A9051738C9E700C56493 /* SvImageEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SvImageEditViewController.m; sourceTree = "<group>"; };
+		F5D9A9151739281F00C56493 /* SvImageCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvImageCropView.h; path = SvImageCropView/SvImageCropView.h; sourceTree = SOURCE_ROOT; };
+		F5D9A9161739281F00C56493 /* SvImageCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SvImageCropView.m; path = SvImageCropView/SvImageCropView.m; sourceTree = SOURCE_ROOT; };
+		F5D9A918173928D300C56493 /* SvCropCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SvCropCell.h; path = SvImageCropView/SvCropCell.h; sourceTree = SOURCE_ROOT; };
+		F5D9A919173928D400C56493 /* SvCropCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SvCropCell.m; path = SvImageCropView/SvCropCell.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D9A8E61738C9E700C56493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D9A8ED1738C9E700C56493 /* UIKit.framework in Frameworks */,
+				F5D9A8EF1738C9E700C56493 /* Foundation.framework in Frameworks */,
+				F5D9A8F11738C9E700C56493 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F546F4521739543200118341 /* SvImageEditUtils */ = {
+			isa = PBXGroup;
+			children = (
+				F57E6015174D080F00AAE306 /* SvImageEdit.h */,
+				F52BD1BB174BA40800074BC5 /* UIImage+Crop.h */,
+				F52BD1BC174BA40800074BC5 /* UIImage+Crop.m */,
+				F5D6E51617427897008965E3 /* UIImage+Rotate_Flip.h */,
+				F5D6E51717427897008965E3 /* UIImage+Rotate_Flip.m */,
+				F5280AC8173F7D9E00BFF647 /* UIImage+Data.h */,
+				F5280AC9173F7D9E00BFF647 /* UIImage+Data.m */,
+				F57E6012174D078F00AAE306 /* UIImage+Zoom.h */,
+				F57E6013174D079000AAE306 /* UIImage+Zoom.m */,
+			);
+			path = SvImageEditUtils;
+			sourceTree = "<group>";
+		};
+		F546F4531739FE9900118341 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F546F4541739FE9900118341 /* cropDragCell.png */,
+				F546F4551739FE9900118341 /* cropDragCell@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F5634CE71740A15700B64EC9 /* BlendView */ = {
+			isa = PBXGroup;
+			children = (
+				F5634CE81740A15700B64EC9 /* backgroud.jpg */,
+				F5634CE91740A15700B64EC9 /* ghost.JPG */,
+				F5634CEA1740A15700B64EC9 /* SvBlendSampleView.h */,
+				F5634CEB1740A15700B64EC9 /* SvBlendSampleView.m */,
+			);
+			path = BlendView;
+			sourceTree = "<group>";
+		};
+		F5D9A8E01738C9E700C56493 = {
+			isa = PBXGroup;
+			children = (
+				F5D9A8F21738C9E700C56493 /* SvImageEdit */,
+				F5D9A8EB1738C9E700C56493 /* Frameworks */,
+				F5D9A8EA1738C9E700C56493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D9A8EA1738C9E700C56493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9A8E91738C9E700C56493 /* SvImageEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D9A8EB1738C9E700C56493 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9A8EC1738C9E700C56493 /* UIKit.framework */,
+				F5D9A8EE1738C9E700C56493 /* Foundation.framework */,
+				F5D9A8F01738C9E700C56493 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5D9A8F21738C9E700C56493 /* SvImageEdit */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9A8FB1738C9E700C56493 /* SvImageEditAppDelegate.h */,
+				F5D9A8FC1738C9E700C56493 /* SvImageEditAppDelegate.m */,
+				F5634CF21740A1CC00B64EC9 /* SvBlendViewController.h */,
+				F5634CF31740A1CC00B64EC9 /* SvBlendViewController.m */,
+				F5280ACB173F85C000BFF647 /* SvImageDataViewController.h */,
+				F5280ACC173F85C000BFF647 /* SvImageDataViewController.m */,
+				F5D9A9041738C9E700C56493 /* SvImageEditViewController.h */,
+				F5D9A9051738C9E700C56493 /* SvImageEditViewController.m */,
+				F583818C174E45FA0099CA00 /* SvTransformView.h */,
+				F583818D174E45FA0099CA00 /* SvTransformView.m */,
+				F5634CE71740A15700B64EC9 /* BlendView */,
+				F5D9A914173927C600C56493 /* SvImageCropView */,
+				F546F4531739FE9900118341 /* Images */,
+				F546F4521739543200118341 /* SvImageEditUtils */,
+				F5D9A8F31738C9E700C56493 /* Supporting Files */,
+			);
+			path = SvImageEdit;
+			sourceTree = "<group>";
+		};
+		F5D9A8F31738C9E700C56493 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5280ACE173F862700BFF647 /* IMG_1607.JPG */,
+				F5D9A8F41738C9E700C56493 /* SvImageEdit-Info.plist */,
+				F5D9A8F51738C9E700C56493 /* InfoPlist.strings */,
+				F5D9A8F81738C9E700C56493 /* main.m */,
+				F5D9A8FA1738C9E700C56493 /* SvImageEdit-Prefix.pch */,
+				F5D9A8FE1738C9E700C56493 /* Default.png */,
+				F5D9A9001738C9E700C56493 /* Default@2x.png */,
+				F5D9A9021738C9E700C56493 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D9A914173927C600C56493 /* SvImageCropView */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9A918173928D300C56493 /* SvCropCell.h */,
+				F5D9A919173928D400C56493 /* SvCropCell.m */,
+				F5D9A9151739281F00C56493 /* SvImageCropView.h */,
+				F5D9A9161739281F00C56493 /* SvImageCropView.m */,
+				F5280AD0173F98CF00BFF647 /* SvImagePathCropView.h */,
+				F5280AD1173F98CF00BFF647 /* SvImagePathCropView.m */,
+			);
+			path = SvImageCropView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D9A8E81738C9E700C56493 /* SvImageEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D9A90F1738C9E700C56493 /* Build configuration list for PBXNativeTarget "SvImageEdit" */;
+			buildPhases = (
+				F5D9A8E51738C9E700C56493 /* Sources */,
+				F5D9A8E61738C9E700C56493 /* Frameworks */,
+				F5D9A8E71738C9E700C56493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SvImageEdit;
+			productName = SvImageEdit;
+			productReference = F5D9A8E91738C9E700C56493 /* SvImageEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D9A8E11738C9E700C56493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SvImageEdit;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = maple;
+			};
+			buildConfigurationList = F5D9A8E41738C9E700C56493 /* Build configuration list for PBXProject "SvImageEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5D9A8E01738C9E700C56493;
+			productRefGroup = F5D9A8EA1738C9E700C56493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D9A8E81738C9E700C56493 /* SvImageEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D9A8E71738C9E700C56493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D9A8F71738C9E700C56493 /* InfoPlist.strings in Resources */,
+				F5D9A8FF1738C9E700C56493 /* Default.png in Resources */,
+				F5D9A9011738C9E700C56493 /* Default@2x.png in Resources */,
+				F5D9A9031738C9E700C56493 /* Default-568h@2x.png in Resources */,
+				F546F4561739FE9900118341 /* cropDragCell.png in Resources */,
+				F546F4571739FE9900118341 /* cropDragCell@2x.png in Resources */,
+				F5280ACF173F862700BFF647 /* IMG_1607.JPG in Resources */,
+				F5634CEC1740A15700B64EC9 /* backgroud.jpg in Resources */,
+				F5634CED1740A15700B64EC9 /* ghost.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D9A8E51738C9E700C56493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D9A8F91738C9E700C56493 /* main.m in Sources */,
+				F5D9A8FD1738C9E700C56493 /* SvImageEditAppDelegate.m in Sources */,
+				F5D9A9061738C9E700C56493 /* SvImageEditViewController.m in Sources */,
+				F5D9A9171739281F00C56493 /* SvImageCropView.m in Sources */,
+				F5D9A91A173928D400C56493 /* SvCropCell.m in Sources */,
+				F5280ACA173F7D9E00BFF647 /* UIImage+Data.m in Sources */,
+				F5280ACD173F85C000BFF647 /* SvImageDataViewController.m in Sources */,
+				F5280AD2173F98CF00BFF647 /* SvImagePathCropView.m in Sources */,
+				F5634CEE1740A15700B64EC9 /* SvBlendSampleView.m in Sources */,
+				F5634CF41740A1CC00B64EC9 /* SvBlendViewController.m in Sources */,
+				F5D6E51817427897008965E3 /* UIImage+Rotate_Flip.m in Sources */,
+				F52BD1BD174BA40800074BC5 /* UIImage+Crop.m in Sources */,
+				F57E6014174D079000AAE306 /* UIImage+Zoom.m in Sources */,
+				F583818E174E45FA0099CA00 /* SvTransformView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5D9A8F51738C9E700C56493 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D9A8F61738C9E700C56493 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D9A90D1738C9E700C56493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5D9A90E1738C9E700C56493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5D9A9101738C9E700C56493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvImageEdit/SvImageEdit-Prefix.pch";
+				INFOPLIST_FILE = "SvImageEdit/SvImageEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5D9A9111738C9E700C56493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SvImageEdit/SvImageEdit-Prefix.pch";
+				INFOPLIST_FILE = "SvImageEdit/SvImageEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D9A8E41738C9E700C56493 /* Build configuration list for PBXProject "SvImageEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D9A90D1738C9E700C56493 /* Debug */,
+				F5D9A90E1738C9E700C56493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D9A90F1738C9E700C56493 /* Build configuration list for PBXNativeTarget "SvImageEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D9A9101738C9E700C56493 /* Debug */,
+				F5D9A9111738C9E700C56493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D9A8E11738C9E700C56493 /* Project object */;
+}
